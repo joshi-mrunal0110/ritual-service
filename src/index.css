@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+
+:root {
+  --saffron: #C77B30;
+  --gold: #D4A24C;
+  --ivory: #FAF9F6;
+  --brown: #3D3028;
+  --brown-light: #6B5340;
+  --brown-muted: #9C7B65;
+  --cream: #F2EDE3;
+  --cream-dark: #E8DDD0;
+}
+
+/* Base Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--ivory);
+  color: var(--brown);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+.hero-title,
+.about-title,
+.services-title,
+.simhastha-title,
+.section-heading {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Lists */
+
+ul {
+  list-style: none;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons */
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Utility Container */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width:768px){
+
+  body{
+    font-size:15px;
+  }
+
+  p{
+    font-size:0.95rem;
+  }
+
+  .hero-title,
+  .about-title,
+  .services-title,
+  .simhastha-title{
+    line-height:1.2;
+  }
+}

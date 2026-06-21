@@ -1,0 +1,346 @@
+/* ==========================
+   SIMHASTHA SECTION
+========================== */
+
+.simhastha {
+  padding: 80px 0;
+  background: #fffaf4;
+}
+
+.simhastha-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* ==========================
+   TITLE
+========================== */
+
+.section-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  color: #c77b30;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section-subtitle span {
+  width: 40px;
+  height: 1px;
+  background: #c77b30;
+}
+
+.simhastha-title {
+  text-align: center;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.2;
+  color: #33261e;
+  margin-bottom: 20px;
+}
+
+.simhastha-title span {
+  color: #c77b30;
+}
+
+.simhastha-description {
+  max-width: 700px;
+  margin: 0 auto 50px;
+
+  text-align: center;
+  color: #6b625c;
+  line-height: 1.8;
+}
+
+/* ==========================
+   COUNTDOWN
+========================== */
+
+.countdown {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  margin-bottom: 80px;
+}
+
+.count-card {
+  background: white;
+  border: 1px solid #ead8c4;
+
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(61, 48, 40, 0.05);
+  padding: 25px;
+
+  text-align: center;
+
+  transition: 0.3s ease;
+}
+
+.count-card:hover {
+  transform: translateY(-5px);
+}
+
+.count-card h3 {
+  color: #c77b30;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.count-card p {
+  color: #6b625c;
+}
+
+/* ==========================
+   SECTION HEADINGS
+========================== */
+
+.section-heading {
+  text-align: center;
+
+  color: #33261e;
+
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+
+  margin-bottom: 35px;
+}
+
+/* ==========================
+   SHAHI SNAN
+========================== */
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+
+  margin-bottom: 80px;
+}
+
+.timeline-card {
+  background: white;
+
+  border: 1px solid #ead8c4;
+  box-shadow: 0 8px 25px rgba(61, 48, 40, 0.05);
+  border-radius: 20px;
+
+  padding: 25px;
+
+  text-align: center;
+
+  transition: 0.3s ease;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+  border-color: #c77b30;
+}
+
+.timeline-card h4 {
+  color: #c77b30;
+  margin-bottom: 10px;
+}
+
+.timeline-card p {
+  color: #6b625c;
+}
+
+/* ==========================
+   PARVA SNAN CALENDAR
+========================== */
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+
+  margin-bottom: 80px;
+}
+
+.calendar-card {
+  background: white;
+
+  border: 1px solid #ead8c4;
+  box-shadow: 0 8px 25px rgba(61, 48, 40, 0.05);
+  border-radius: 15px;
+
+  padding: 18px;
+
+  color: #5d5148;
+
+  line-height: 1.7;
+
+  transition: 0.3s ease;
+}
+
+.calendar-card:hover {
+  transform: translateY(-4px);
+  border-color: #c77b30;
+}
+
+/* ==========================
+   GALLERY CAROUSEL
+========================== */
+
+.kumbh-swiper {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.kumbh-swiper img {
+  width: 100%;
+
+  height: 550px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  display: block;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #c77b30;
+}
+
+.swiper-pagination-bullet-active {
+  background: #c77b30;
+}
+
+/* ==========================
+   TABLET
+========================== */
+
+@media (max-width: 1024px) {
+
+  .countdown {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .calendar-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kumbh-swiper img {
+    height: 350px;
+  }
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 768px) {
+
+  .simhastha {
+    padding: 60px 0;
+  }
+
+  .simhastha-title {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .simhastha-description {
+    font-size: 0.95rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+
+  .countdown {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+
+    margin-bottom: 50px;
+  }
+
+  .count-card {
+    padding: 18px;
+    box-shadow: 0 8px 25px rgba(61, 48, 40, 0.05);
+  }
+
+  .count-card h3 {
+    font-size: 2rem;
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+    gap: 15px;
+
+    margin-bottom: 50px;
+  }
+
+  .timeline-card {
+    padding: 18px;
+  }
+
+  .calendar-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+
+    margin-bottom: 50px;
+  }
+
+  .calendar-card {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .kumbh-swiper img {
+    height: 220px;
+    border-radius: 15px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+  .section-subtitle {
+    font-size: 12px;
+  }
+
+  .section-subtitle span {
+    width: 25px;
+  }
+}
+
+/* ==========================
+   SMALL PHONES
+========================== */
+
+@media (max-width: 480px) {
+
+  .simhastha-title {
+    font-size: 1.8rem;
+  }
+
+  .count-card h3 {
+    font-size: 1.7rem;
+  }
+
+  .count-card {
+    padding: 15px;
+  }
+
+  .kumbh-swiper img {
+    height: 180px;
+  }
+}

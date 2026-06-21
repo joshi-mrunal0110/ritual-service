@@ -1,0 +1,39 @@
+.ribbon {
+  background: #C77B30;
+  height: 40px;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+}
+
+.ribbon-track {
+  display: flex;
+  width: max-content;
+
+  animation: ticker 40s linear infinite;
+}
+
+.ribbon-text {
+  display: flex;
+  align-items: center;
+
+  gap: 30px;
+  padding-right: 30px;
+
+  white-space: nowrap;
+
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
