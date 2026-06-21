@@ -22,12 +22,12 @@ export default function About() {
 
           <div className="about-stats">
             <div className="stat-card">
-              <h3>20+</h3>
+              <h3>25+</h3>
               <p>{t("about.experience")}</p>
             </div>
 
             <div className="stat-card">
-              <h3>5000+</h3>
+              <h3>10000+</h3>
               <p>{t("about.families")}</p>
             </div>
 
