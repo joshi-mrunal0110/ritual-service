@@ -1,33 +1,36 @@
 import "./Ribbon.css";
+import { useTranslation } from "react-i18next";
 
 function Ribbon() {
+  const { t } = useTranslation();
+
   const content = (
     <>
-      <span>Vedic Ritual Service</span>
+      <span>{t("ribbon.service")}</span>
       <span>•</span>
 
-      <span>🚩 Simhastha Kumbh Mela 2027 Ritual Bookings Open</span>
+      <span>{t("ribbon.simhastha")}</span>
       <span>•</span>
 
-      <span>🔥 Pind Daan</span>
+      <span>{t("ribbon.pindDaan")}</span>
       <span>•</span>
 
-      <span>🙏 Asthi Visarjan</span>
+      <span>{t("ribbon.asthiVisarjan")}</span>
       <span>•</span>
 
-      <span>🕉️ Shraddha Vidhi</span>
+      <span>{t("ribbon.shraddha")}</span>
       <span>•</span>
 
-      <span>🔱 Narayan Nagbali</span>
+      <span>{t("ribbon.narayanNagbali")}</span>
       <span>•</span>
 
-      <span>🌼 Tripindi Shraddha</span>
+      <span>{t("ribbon.tripindi")}</span>
       <span>•</span>
 
-      <span>📍 Nashik</span>
+      <span>{t("ribbon.location")}</span>
       <span>•</span>
 
-      <span>📞 Call for Guidance</span>
+      <span>{t("ribbon.call")}</span>
       <span>•</span>
     </>
   );

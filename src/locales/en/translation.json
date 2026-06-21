@@ -1,0 +1,269 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Guruji",
+    "services": "Services",
+    "simhastha": "Simhastha 2027",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "language": "Language"
+  },
+
+  "logo": {
+    "line1": "Ranchhod",
+    "highlight": "Narayan",
+    "line2": "Kshemkalyani"
+  },
+
+  "ribbon": {
+  "service": "Vedic Ritual Services",
+  "simhastha": "🚩 Simhastha Kumbh Mela 2027 Ritual Bookings Open",
+  "pindDaan": "🔥 Pind Daan",
+  "asthiVisarjan": "🙏 Asthi Visarjan",
+  "shraddha": "🕉️ Shraddha Vidhi",
+  "narayanNagbali": "🔱 Narayan Nagbali",
+  "tripindi": "🌼 Tripindi Shraddha",
+  "location": "📍 Nashik",
+  "call": "📞 Call for Guidance"
+},
+
+ "home": {
+  "titleLine1": "Ranchhod Narayan",
+  "titleLine2": "Kshemkalyani",
+  "tagline": "Religious Ritual Services at Nashik's Sacred Godavari Ghats",
+  "description": "We guide families with deep reverence and compassion through sacred post-death rituals on the holy banks of the Godavari River. Every ceremony is performed with authenticity, care, and spiritual dignity.",
+  "call": "Call",
+  "whatsapp": "WhatsApp",
+  "services": "View Services",
+
+  "feature1": "Marathi, Hindi, Gujarati & More",
+  "feature2": "25+ Years of Experience",
+  "feature3": "Godavari Ghat Rituals"
+},
+
+ "about": {
+  "subtitle": "ABOUT GURUJI",
+  "title": "Shri Sagar Kshemkalyani",
+  "location": "Ramkund Teerth Purohit, Nashik",
+
+  "paragraph1": "With over 20 years of experience, Shri Sagar Kshemkalyani has been serving families at the sacred Ramkund on the banks of the holy Godavari River in Nashik, guiding them through religious rituals with devotion, authenticity, and respect for tradition.",
+
+  "paragraph2": "He specializes in a wide range of Vedic and ancestral ceremonies including Dashakriya Vidhi, Pind Daan, Asthi Visarjan, Shraddha Vidhi, Narayan Nagbali, Tripindi Shraddha, Pitru Dosh Nivaran and other religious rituals performed according to traditional customs.",
+
+  "paragraph3": "One of the unique services offered is access to and guidance regarding ancestral family records (Namawali / Namolya) preserved through generations, helping families trace and maintain their sacred lineage and heritage.",
+
+  "paragraph4": "Guruji has extensive experience serving families belonging to the traditions of Maharashtra, Uttar Pradesh, Gujarat and Telugu communities, ensuring that rituals are conducted according to the specific customs and religious practices followed by each family.",
+
+  "paragraph5": "Known for his sincerity, knowledge of scriptures and compassionate guidance, Shri Sagar Kshemkalyani has earned the trust of thousands of families over the years.",
+
+  "experience": "Years Experience",
+  "families": "Families Served",
+  "traditions": "Regional Traditions",
+  "services": "Ritual Services",
+
+  "tag1": "Maharashtra",
+  "tag2": "Uttar Pradesh",
+  "tag3": "Gujarat",
+  "tag4": "Telugu Community"
+},
+
+ "services": {
+  "subtitle": "OUR SERVICES",
+  "title": "Religious Services at",
+  "titleHighlight": " Ramkund, Nashik",
+  "description": "Complete assistance and guidance for Vedic, ancestral and religious rituals performed according to traditional customs.",
+
+  "dashakriyaTitle": "Dashakriya Vidhi",
+  "dashakriyaDesc": "Traditional post-death rituals performed according to Hindu customs.",
+
+  "pindDaanTitle": "Pind Daan",
+  "pindDaanDesc": "Sacred offering rituals dedicated to ancestors and departed souls.",
+
+  "asthiTitle": "Asthi Visarjan",
+  "asthiDesc": "Guidance and arrangements for immersion of ashes at Ramkund.",
+
+  "narayanTitle": "Narayan Nagbali",
+  "narayanDesc": "Special Vedic ritual performed for ancestral peace and karmic relief.",
+
+  "tripindiTitle": "Tripindi Shraddha",
+  "tripindiDesc": "Ritual for satisfying unsatisfied ancestral souls and attaining blessings.",
+
+  "pitruTitle": "Pitru Dosh Puja",
+  "pitruDesc": "Religious remedies performed for ancestral doshas.",
+
+  "kalasarpaTitle": "Kalasarpa Shanti",
+  "kalasarpaDesc": "Traditional puja for relief from Kalasarpa Dosha.",
+
+  "namawaliTitle": "Namawali Records",
+  "namawaliDesc": "Guidance regarding ancestral family records preserved through generations."
+},
+
+  "simhastha": {
+  "subtitle": "SIMHASTHA KUMBH MELA 2027",
+  "title": "Sacred Ritual Services During",
+  "titleHighlight": " Simhastha Kumbh Mela 2027",
+
+  "days": "Days",
+  "hours": "Hours",
+  "minutes": "Minutes",
+  "seconds": "Seconds",
+
+  "shahiSnanHeading": "📅 Important Shahi Snan Dates",
+  "parvaSnanHeading": "📜 Parva Snan Calendar",
+  "galleryHeading": "📷 Previous Kumbh Mela Gallery",
+
+  "dhwajarohan": "🚩 Dhwajarohan",
+  "firstSnan": "🔱 First Shahi Snan",
+  "secondSnan": "🌊 Second Shahi Snan",
+  "thirdSnan": "🕉️ Third Shahi Snan",
+  "parvaSnan": [
+    "05 September 2027 - Rishi Panchami",
+    "11 September 2027 - Bhadrapad Shukla Ekadashi",
+    "15 September 2027 - Bhadrapad Shukla Purnima",
+    "26 September 2027 - Bhadrapad Krishna Chaturdashi",
+    "30 September 2027 - Bhadrapad Krishna Amavasya",
+
+    "13 October 2027 - Ashwin Shukla Ekadashi",
+    "15 October 2027 - Ashwin Shukla Purnima",
+    "25 October 2027 - Ashwin Vad Ekadashi",
+
+    "10 November 2027 - Kartik Shukla Ekadashi",
+    "14 November 2027 - Kartik Shukla Purnima",
+    "24 November 2027 - Kartik Vad Ekadashi",
+    "28 November 2027 - Kartik Vad Amavasya",
+
+    "09 December 2027 - Margashirsha Shukla Ekadashi",
+    "13 December 2027 - Margashirsha Purnima",
+    "19 December 2027 - Margashirsha Amavasya (Somvati Amavasya)",
+
+    "16 January 2028 - Mauni Amavasya",
+
+    "17 January 2028 - Magh Shukla Pratipada to 12 February 2028",
+    "05 February 2028 - Ganga Godavari Mahotsav",
+
+    "09 February 2028 - Magh Shukla Panchami",
+    "10 February 2028 - Magh Shukla Ekadashi",
+    "20 February 2028 - Magh Shukla Purnima",
+    "20 February 2028 - Magh Krishna Ekadashi",
+
+    "21 February 2028 - Magh Krishna Bhagavat Ekadashi",
+    "25 February 2028 - Magh Vad Amavasya",
+
+    "07 March 2028 - Phalgun Shukla Ekadashi",
+    "22 March 2028 - Phalgun Vad Ekadashi",
+
+    "05 April 2028 - Chaitra Shukla Ekadashi",
+    "09 April 2028 - Chaitra Shukla Purnima",
+    "24 April 2028 - Chaitra Vad Amavasya",
+
+    "08 May 2028 - Vaishakh Shukla Ekadashi",
+    "08 May 2028 - Vaishakh Shukla Purnima",
+    "20 May 2028 - Vaishakh Vad Ekadashi",
+    "23 May 2028 - Vaishakh Vad Amavasya",
+
+    "25 May 2028 - 02 June 2028 - Jyeshtha Shukla Dashahara",
+    "03 June 2028 - Jyeshtha Shukla Ekadashi",
+    "07 June 2028 - Jyeshtha Shukla Purnima",
+    "18 June 2028 - Jyeshtha Vad Ekadashi",
+    "22 June 2028 - Jyeshtha Vad Amavasya",
+
+    "02 July 2028 - Ashadh Shukla Ekadashi",
+    "06 July 2028 - Ashadh Shukla Purnima",
+    "18 July 2028 - Ashadh Vad Ekadashi",
+    "22 July 2028 - Ashadh Krishna Trayodashi",
+
+    "Simhastha Samapti Dashami - 31 July to 06 August 2028"
+  ]
+
+},
+
+  "faq": {
+  "subtitle": "FREQUENTLY ASKED QUESTIONS",
+  "title": "Frequently Asked",
+  "titleHighlight": " Questions",
+
+  "q1": "What rituals do you perform at Ramkund, Nashik?",
+  "a1": "We perform Asthi Visarjan, Pind Daan, Shraddha Vidhi, Dashakriya Vidhi, Narayan Nagbali, Tripindi Shraddha, Pitru Dosh Nivaran and other traditional Vedic rituals.",
+
+  "q2": "What is Asthi Visarjan?",
+  "a2": "Asthi Visarjan is the sacred ritual of immersing the ashes of a departed soul in the holy Godavari River according to Hindu traditions.",
+
+  "q3": "Do you provide Namawali (ancestral records)?",
+  "a3": "Yes. We assist families in accessing traditional ancestral records preserved through generations at Nashik.",
+
+  "q4": "Which communities do you serve?",
+  "a4": "We primarily serve families from Maharashtra, Uttar Pradesh, Gujarat, Telugu communities and other regions of India.",
+
+  "q5": "Can rituals be booked during Simhastha Kumbh Mela 2027?",
+  "a5": "Yes. Advance booking is highly recommended due to the large number of pilgrims visiting Nashik during Simhastha.",
+
+  "q6": "Do you assist outstation families?",
+  "a6": "Yes. We guide families regarding rituals, required materials, local arrangements and scheduling."
+},
+
+ "contact": {
+  "subtitle": "CONTACT US",
+  "title": "Get In",
+  "titleHighlight": " Touch",
+
+  "description": "Contact Shri Sagar Kshemkalyani for ritual guidance, bookings, and information regarding services at Ramkund, Nashik.",
+
+  "callGuruji": "Call Guruji",
+  "whatsapp": "WhatsApp",
+  "chatWhatsapp": "Chat on WhatsApp",
+
+  "locationTitle": "Location",
+  "location": "Ramkund, Godavari Ghat",
+  "city": "Nashik, Maharashtra",
+
+  "availability": "Availability",
+  "daily": "Daily",
+
+  "namePlaceholder": "Your Name",
+  "mobilePlaceholder": "Mobile Number",
+  "messagePlaceholder": "Write your message...",
+
+  "selectRitual": "Select Ritual",
+
+  "pindDaan": "Pind Daan",
+  "asthiVisarjan": "Asthi Visarjan",
+  "dashakriya": "Dashakriya Vidhi",
+  "shraddha": "Shraddha Vidhi",
+  "narayanNagbali": "Narayan Nagbali",
+  "tripindi": "Tripindi Shraddha",
+  "pitruDosh": "Pitru Dosh Nivaran",
+  "otherRitual": "Other Ritual",
+
+  "submit": "Send Inquiry on WhatsApp"
+},
+
+  "footer": {
+  "logo": "Ranchod Narayan",
+  "logoHighlight": " Kshemkalyani",
+
+  "description": "Traditional Vedic Ritual Services at Ramkund, Nashik. Serving families with devotion, authenticity, and guidance for over 20 years.",
+
+  "quickLinks": "Quick Links",
+  "home": "Home",
+  "about": "About Guruji",
+  "services": "Services",
+  "simhastha": "Simhastha 2027",
+  "faq": "FAQ",
+  "contact": "Contact",
+
+  "servicesTitle": "Services",
+  "pindDaan": "Pind Daan",
+  "asthiVisarjan": "Asthi Visarjan",
+  "shraddha": "Shraddha Vidhi",
+  "dashakriya": "Dashakriya Vidhi",
+  "narayanNagbali": "Narayan Nagbali",
+  "tripindi": "Tripindi Shraddha",
+
+  "contactTitle": "Contact",
+  "whatsapp": "WhatsApp",
+  "location": "Ramkund, Nashik",
+
+  "copyright": "© 2026 Ranchod Narayan Kshemkalyani. All Rights Reserved.",
+  "developedBy": "Designed & Developed by"
+}
+}

@@ -1,40 +1,37 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./FAQ.css";
 
-const faqData = [
-  {
-    question: "What rituals do you perform at Ramkund, Nashik?",
-    answer:
-      "We perform Asthi Visarjan, Pind Daan, Shraddha Vidhi, Dashakriya Vidhi, Narayan Nagbali, Tripindi Shraddha, Pitru Dosh Nivaran and other traditional Vedic rituals."
-  },
-  {
-    question: "What is Asthi Visarjan?",
-    answer:
-      "Asthi Visarjan is the sacred ritual of immersing the ashes of a departed soul in the holy Godavari River according to Hindu traditions."
-  },
-  {
-    question: "Do you provide Namawali (ancestral records)?",
-    answer:
-      "Yes. We assist families in accessing traditional ancestral records preserved through generations at Nashik."
-  },
-  {
-    question: "Which communities do you serve?",
-    answer:
-      "We primarily serve families from Maharashtra, Uttar Pradesh, Gujarat, Telugu communities and other regions of India."
-  },
-  {
-    question: "Can rituals be booked during Simhastha Kumbh Mela 2027?",
-    answer:
-      "Yes. Advance booking is highly recommended due to the large number of pilgrims visiting Nashik during Simhastha."
-  },
-  {
-    question: "Do you assist outstation families?",
-    answer:
-      "Yes. We guide families regarding rituals, required materials, local arrangements and scheduling."
-  }
-];
-
 export default function FAQ() {
+  const { t } = useTranslation();
+
+  const faqData = [
+    {
+      question: t("faq.q1"),
+      answer: t("faq.a1"),
+    },
+    {
+      question: t("faq.q2"),
+      answer: t("faq.a2"),
+    },
+    {
+      question: t("faq.q3"),
+      answer: t("faq.a3"),
+    },
+    {
+      question: t("faq.q4"),
+      answer: t("faq.a4"),
+    },
+    {
+      question: t("faq.q5"),
+      answer: t("faq.a5"),
+    },
+    {
+      question: t("faq.q6"),
+      answer: t("faq.a6"),
+    },
+  ];
+
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -47,12 +44,13 @@ export default function FAQ() {
 
         <div className="section-subtitle">
           <span></span>
-          FREQUENTLY ASKED QUESTIONS
+          {t("faq.subtitle")}
           <span></span>
         </div>
 
         <h2 className="faq-title">
-          Frequently Asked <span>Questions</span>
+          {t("faq.title")}
+          <span>{t("faq.titleHighlight")}</span>
         </h2>
 
         <div className="faq-list">

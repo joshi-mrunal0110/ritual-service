@@ -1,8 +1,16 @@
 import "./Contact.css";
 import { useState } from "react";
-import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import {
+  Phone,
+  MessageCircle,
+  MapPin,
+  Clock,
+} from "lucide-react";
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   const [formData, setFormData] = useState({
     name: "",
     mobile: "",
@@ -51,31 +59,33 @@ ${formData.message}
     <section id="contact" className="contact">
       <div className="contact-container">
 
+        {/* Section Header */}
+
         <div className="section-subtitle">
           <span></span>
-          CONTACT US
+          {t("contact.subtitle")}
           <span></span>
         </div>
 
         <h2 className="contact-title">
-          Get In <span>Touch</span>
+          {t("contact.title")}
+          <span>{t("contact.titleHighlight")}</span>
         </h2>
 
         <p className="contact-description">
-          Contact Shri Sagar Kshemkalyani for ritual guidance,
-          bookings, and information regarding services at
-          Ramkund, Nashik.
+          {t("contact.description")}
         </p>
 
         <div className="contact-content">
 
-          {/* Contact Information */}
+          {/* Contact Info */}
 
           <div className="contact-info">
 
             <div className="contact-card">
               <Phone size={24} />
-              <h3>Call Guruji</h3>
+
+              <h3>{t("contact.callGuruji")}</h3>
 
               <a href="tel:+919763260162">
                 +91 97632 60162
@@ -88,34 +98,37 @@ ${formData.message}
 
             <div className="contact-card">
               <MessageCircle size={24} />
-              <h3>WhatsApp</h3>
+
+              <h3>{t("contact.whatsapp")}</h3>
 
               <a
                 href="https://wa.me/919763260162?text=Namaste Guruji, I would like guidance regarding rituals at Ramkund."
                 target="_blank"
                 rel="noreferrer"
               >
-                Chat on WhatsApp
+                {t("contact.chatWhatsapp")}
               </a>
             </div>
 
             <div className="contact-card">
               <MapPin size={24} />
-              <h3>Location</h3>
+
+              <h3>{t("contact.locationTitle")}</h3>
 
               <p>
-                Ramkund, Godavari Ghat
+                {t("contact.location")}
                 <br />
-                Nashik, Maharashtra
+                {t("contact.city")}
               </p>
             </div>
 
             <div className="contact-card">
               <Clock size={24} />
-              <h3>Availability</h3>
+
+              <h3>{t("contact.availability")}</h3>
 
               <p>
-                Daily
+                {t("contact.daily")}
                 <br />
                 5:00 AM - 9:00 PM
               </p>
@@ -125,12 +138,16 @@ ${formData.message}
 
           {/* Contact Form */}
 
-          <form className="contact-form" onSubmit={handleSubmit}>
-
+          <form
+            className="contact-form"
+            onSubmit={handleSubmit}
+          >
             <input
               type="text"
               name="name"
-              placeholder="Your Name"
+              placeholder={t(
+                "contact.namePlaceholder"
+              )}
               value={formData.name}
               onChange={handleChange}
               required
@@ -139,7 +156,9 @@ ${formData.message}
             <input
               type="tel"
               name="mobile"
-              placeholder="Mobile Number"
+              placeholder={t(
+                "contact.mobilePlaceholder"
+              )}
               value={formData.mobile}
               onChange={handleChange}
               required
@@ -151,33 +170,56 @@ ${formData.message}
               onChange={handleChange}
               required
             >
-              <option value="">Select Ritual</option>
-              <option value="Pind Daan">Pind Daan</option>
-              <option value="Asthi Visarjan">Asthi Visarjan</option>
-              <option value="Dashakriya Vidhi">Dashakriya Vidhi</option>
-              <option value="Shraddha Vidhi">Shraddha Vidhi</option>
-              <option value="Narayan Nagbali">Narayan Nagbali</option>
-              <option value="Tripindi Shraddha">Tripindi Shraddha</option>
-              <option value="Pitru Dosh Nivaran">
-                Pitru Dosh Nivaran
+              <option value="">
+                {t("contact.selectRitual")}
               </option>
-              <option value="Other Ritual">
-                Other Ritual
+
+              <option value={t("contact.pindDaan")}>
+                {t("contact.pindDaan")}
+              </option>
+
+              <option value={t("contact.asthiVisarjan")}>
+                {t("contact.asthiVisarjan")}
+              </option>
+
+              <option value={t("contact.dashakriya")}>
+                {t("contact.dashakriya")}
+              </option>
+
+              <option value={t("contact.shraddha")}>
+                {t("contact.shraddha")}
+              </option>
+
+              <option value={t("contact.narayanNagbali")}>
+                {t("contact.narayanNagbali")}
+              </option>
+
+              <option value={t("contact.tripindi")}>
+                {t("contact.tripindi")}
+              </option>
+
+              <option value={t("contact.pitruDosh")}>
+                {t("contact.pitruDosh")}
+              </option>
+
+              <option value={t("contact.otherRitual")}>
+                {t("contact.otherRitual")}
               </option>
             </select>
 
             <textarea
               rows="5"
               name="message"
-              placeholder="Write your message..."
+              placeholder={t(
+                "contact.messagePlaceholder"
+              )}
               value={formData.message}
               onChange={handleChange}
             ></textarea>
 
             <button type="submit">
-              Send Inquiry on WhatsApp
+              {t("contact.submit")}
             </button>
-
           </form>
 
         </div>

@@ -1,75 +1,69 @@
 import "./Services.css";
-
-const services = [
-  {
-    title: "Dashakriya Vidhi",
-    icon: "🕉️",
-    description:
-      "Traditional post-death rituals performed according to Hindu customs."
-  },
-  {
-    title: "Pind Daan",
-    icon: "🙏",
-    description:
-      "Sacred offering rituals dedicated to ancestors and departed souls."
-  },
-  {
-    title: "Asthi Visarjan",
-    icon: "🌊",
-    description:
-      "Guidance and arrangements for immersion of ashes at Ramkund."
-  },
-  {
-    title: "Narayan Nagbali",
-    icon: "🔱",
-    description:
-      "Special Vedic ritual performed for ancestral peace and karmic relief."
-  },
-  {
-    title: "Tripindi Shraddha",
-    icon: "🌼",
-    description:
-      "Ritual for satisfying unsatisfied ancestral souls and attaining blessings."
-  },
-  {
-    title: "Pitru Dosh Puja",
-    icon: "🪔",
-    description:
-      "Religious remedies performed for ancestral doshas."
-  },
-  {
-    title: "Kalasarpa Shanti",
-    icon: "🐍",
-    description:
-      "Traditional puja for relief from Kalasarpa Dosha."
-  },
-  {
-    title: "Namawali Records",
-    icon: "📜",
-    description:
-      "Guidance regarding ancestral family records preserved through generations."
-  }
-];
+import { useTranslation } from "react-i18next";
 
 export default function Services() {
+  const { t } = useTranslation();
+
+  const services = [
+    {
+      title: t("services.dashakriyaTitle"),
+      icon: "🕉️",
+      description: t("services.dashakriyaDesc")
+    },
+    {
+      title: t("services.pindDaanTitle"),
+      icon: "🙏",
+      description: t("services.pindDaanDesc")
+    },
+    {
+      title: t("services.asthiTitle"),
+      icon: "🌊",
+      description: t("services.asthiDesc")
+    },
+    {
+      title: t("services.narayanTitle"),
+      icon: "🔱",
+      description: t("services.narayanDesc")
+    },
+    {
+      title: t("services.tripindiTitle"),
+      icon: "🌼",
+      description: t("services.tripindiDesc")
+    },
+    {
+      title: t("services.pitruTitle"),
+      icon: "🪔",
+      description: t("services.pitruDesc")
+    },
+    {
+      title: t("services.kalasarpaTitle"),
+      icon: "🐍",
+      description: t("services.kalasarpaDesc")
+    },
+    {
+      title: t("services.namawaliTitle"),
+      icon: "📜",
+      description: t("services.namawaliDesc")
+    }
+  ];
+
   return (
     <section id="service" className="services">
       <div className="services-container">
 
         <div className="section-subtitle">
           <span></span>
-          OUR SERVICES
+          {t("services.subtitle")}
           <span></span>
         </div>
 
         <h2 className="services-title">
-          Religious Services at
-          <span> Ramkund, Nashik</span>
+          {t("services.title")}
+          <span>{t("services.titleHighlight")}</span>
         </h2>
 
         <p className="services-description">
-          Complete assistance and guidance for Vedic, ancestral and
-          religious rituals performed according to traditional customs.
+          {t("services.description")}
         </p>
 
         <div className="services-grid">
@@ -82,8 +76,6 @@ export default function Services() {
               <h3>{service.title}</h3>
 
               <p>{service.description}</p>
-
-              
             </div>
           ))}
         </div>

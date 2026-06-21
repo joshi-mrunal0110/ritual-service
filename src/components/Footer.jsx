@@ -1,7 +1,10 @@
 import "./Footer.css";
 import { Phone, MapPin, MessageCircle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
 
@@ -11,50 +14,49 @@ export default function Footer() {
 
         <div className="footer-section">
           <h3 className="footer-logo">
-            Ranchod Narayan <span>Kshemkalyani</span>
+            {t("footer.logo")}
+            <span>{t("footer.logoHighlight")}</span>
           </h3>
 
           <p>
-            Traditional Vedic Ritual Services at Ramkund,
-            Nashik. Serving families with devotion,
-            authenticity, and guidance for over 20 years.
+            {t("footer.description")}
           </p>
         </div>
 
         {/* Quick Links */}
 
         <div className="footer-section">
-          <h4>Quick Links</h4>
+          <h4>{t("footer.quickLinks")}</h4>
 
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Guruji</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#simhastha">Simhastha 2027</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">{t("footer.home")}</a></li>
+            <li><a href="#about">{t("footer.about")}</a></li>
+            <li><a href="#service">{t("footer.services")}</a></li>
+            <li><a href="#simhastha">{t("footer.simhastha")}</a></li>
+            <li><a href="#faq">{t("footer.faq")}</a></li>
+            <li><a href="#contact">{t("footer.contact")}</a></li>
           </ul>
         </div>
 
         {/* Services */}
 
         <div className="footer-section">
-          <h4>Services</h4>
+          <h4>{t("footer.servicesTitle")}</h4>
 
           <ul>
-            <li>Pind Daan</li>
-            <li>Asthi Visarjan</li>
-            <li>Shraddha Vidhi</li>
-            <li>Dashakriya Vidhi</li>
-            <li>Narayan Nagbali</li>
-            <li>Tripindi Shraddha</li>
+            <li>{t("footer.pindDaan")}</li>
+            <li>{t("footer.asthiVisarjan")}</li>
+            <li>{t("footer.shraddha")}</li>
+            <li>{t("footer.dashakriya")}</li>
+            <li>{t("footer.narayanNagbali")}</li>
+            <li>{t("footer.tripindi")}</li>
           </ul>
         </div>
 
         {/* Contact */}
 
         <div className="footer-section">
-          <h4>Contact</h4>
+          <h4>{t("footer.contactTitle")}</h4>
 
           <div className="footer-contact">
 
@@ -79,13 +81,13 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                WhatsApp
+                {t("footer.whatsapp")}
               </a>
             </p>
 
             <p>
               <MapPin size={16} />
-              Ramkund, Nashik
+              {t("footer.location")}
             </p>
 
           </div>
@@ -97,12 +99,11 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <p>
-          © 2026 Ranchod Narayan Kshemkalyani.
-          All Rights Reserved.
+          {t("footer.copyright")}
         </p>
 
         <p>
-          Designed & Developed by <span>Mrunal Joshi</span>
+          {t("footer.developedBy")} <span>Mrunal Joshi</span>
         </p>
       </div>
 
