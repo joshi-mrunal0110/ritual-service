@@ -14,7 +14,7 @@ export default function About() {
         <div className="about-image-section">
           <div className="guruji-image-wrapper">
             <img
-              src="src/assets/sagar-kshemkayani.jpeg"
+              src={gurujiImage}
               alt={t("about.title")}
               className="guruji-image"
             />
