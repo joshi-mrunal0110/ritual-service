@@ -8,6 +8,15 @@
   box-sizing: border-box;
 }
 
+#home,
+#about,
+#service,
+#simhastha,
+#faq,
+#contact {
+  scroll-margin-top: 80px;
+}
+
 /* Root Variables */
 
 :root {
