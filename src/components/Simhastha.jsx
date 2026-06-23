@@ -15,6 +15,7 @@ import kumbh4 from "../assets/kumbh4.jpg";
 import kumbh5 from "../assets/kumbh5.jpg";
 import kumbh6 from "../assets/kumbh6.jpg";
 import kumbh7 from "../assets/kumbh7.jpg";
+import simhasthaLogo from "../assets/simhasta-logo.jpg";
 
 export default function Simhastha() {
   const { t } = useTranslation();
@@ -70,6 +71,9 @@ export default function Simhastha() {
   return (
     <section id="simhastha" className="simhastha">
       <div className="simhastha-container">
+        <div className="simhastha-logo">
+          <img src={simhasthaLogo} alt="Simhastha Kumbh Mela 2027" />
+        </div>
 
         <div className="section-subtitle">
           <span></span>
@@ -85,7 +89,6 @@ export default function Simhastha() {
         {/* Countdown */}
 
         <div className="countdown">
-
           <div className="count-card">
             <h3>{timeLeft.days}</h3>
             <p>{t("simhastha.days")}</p>
@@ -105,21 +108,15 @@ export default function Simhastha() {
             <h3>{timeLeft.seconds}</h3>
             <p>{t("simhastha.seconds")}</p>
           </div>
-
         </div>
 
         {/* Shahi Snan */}
 
-        <h3 className="section-heading">
-          {t("simhastha.shahiSnanHeading")}
-        </h3>
+        <h3 className="section-heading">{t("simhastha.shahiSnanHeading")}</h3>
 
         <div className="timeline">
           {shahiSnan.map((item, index) => (
-            <div
-              key={index}
-              className="timeline-card"
-            >
+            <div key={index} className="timeline-card">
               <h4>{item.title}</h4>
               <p>{item.date}</p>
             </div>
@@ -128,16 +125,11 @@ export default function Simhastha() {
 
         {/* Parva Snan */}
 
-        <h3 className="section-heading">
-          {t("simhastha.parvaSnanHeading")}
-        </h3>
+        <h3 className="section-heading">{t("simhastha.parvaSnanHeading")}</h3>
 
         <div className="calendar-grid">
           {parvaSnan.map((item, index) => (
-            <div
-              key={index}
-              className="calendar-card"
-            >
+            <div key={index} className="calendar-card">
               {item}
             </div>
           ))}
@@ -145,16 +137,10 @@ export default function Simhastha() {
 
         {/* Gallery */}
 
-        <h3 className="section-heading">
-          {t("simhastha.galleryHeading")}
-        </h3>
+        <h3 className="section-heading">{t("simhastha.galleryHeading")}</h3>
 
         <Swiper
-          modules={[
-            Navigation,
-            Pagination,
-            Autoplay,
-          ]}
+          modules={[Navigation, Pagination, Autoplay]}
           navigation
           pagination={{
             clickable: true,
@@ -169,55 +155,33 @@ export default function Simhastha() {
           className="kumbh-swiper"
         >
           <SwiperSlide>
-            <img
-              src={kumbh1}
-              alt="Kumbh Mela"
-            />
+            <img src={kumbh1} alt="Kumbh Mela" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img
-              src={kumbh2}
-              alt="Ramkund"
-            />
+            <img src={kumbh2} alt="Ramkund" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img
-              src={kumbh3}
-              alt="Godavari Ghat"
-            />
+            <img src={kumbh3} alt="Godavari Ghat" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img
-              src={kumbh4}
-              alt="Crowd"
-            />
+            <img src={kumbh4} alt="Crowd" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img
-              src={kumbh5}
-              alt="Godavari Ghat Night View"
-            />
+            <img src={kumbh5} alt="Godavari Ghat Night View" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img
-              src={kumbh6}
-              alt="Sadhus"
-            />
+            <img src={kumbh6} alt="Sadhus" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img
-              src={kumbh7}
-              alt="Godavari Temple"
-            />
+            <img src={kumbh7} alt="Godavari Temple" />
           </SwiperSlide>
         </Swiper>
-
       </div>
     </section>
   );

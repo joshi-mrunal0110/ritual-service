@@ -13,6 +13,18 @@
   margin: 0 auto;
 }
 
+.simhastha-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.simhastha-logo img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
 /* ==========================
    TITLE
 ========================== */
@@ -245,6 +257,10 @@
 ========================== */
 
 @media (max-width: 768px) {
+
+  .simhastha-logo img {
+    width: 120px;
+  }
 
   .simhastha {
     padding: 60px 0;
